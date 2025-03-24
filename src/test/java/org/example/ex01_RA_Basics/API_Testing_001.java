@@ -11,14 +11,14 @@ public class API_Testing_001 {
 // When() -> HTTP method? - GET/POST/PUT/PATCH, DELETE...
 // Then() -> Validation -> 200 oK, firstname == SHAILESH
 
-//        Full url --- https://api.zippopotam.us/IN/560016
+//        Full url --- https://api.zippopotam.us/IN/400102
 //        Base url --- https://api.zippopotam.us
 //        bath Path --- /IN/400101
 
         RestAssured
                 .given()
                 .baseUri("https://api.zippopotam.us")
-                .basePath("/IN/560016")
+                .basePath("/IN/400102")
                 .when()
                 .get()
                 .then().log().all().statusCode(200);
