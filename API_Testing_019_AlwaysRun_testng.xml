@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/shail/IdeaProjects/API_AUTOMATION_THROUGH_RESTASSURED">
+        <classes>
+            <class name="org.example.ex08_TestNG_Example.API_Testing_019_TestNG_AlwaysRun">
+
+        </class>
+
+        </classes>
+    </test>
+</suite>
